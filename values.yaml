@@ -57,7 +57,7 @@ kube-prometheus-stack:
     adminPassword: "admin"
     service:
       type: NodePort
-      nodePort: 9003
+      nodePort: 30903
     additionalDataSources:
       - name: Loki
         type: loki
